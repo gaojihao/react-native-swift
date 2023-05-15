@@ -7,27 +7,27 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		939A9F2529EA21290029D7D0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 939A9F2429EA21290029D7D0 /* AppDelegate.swift */; };
-		939A9F2729EA21290029D7D0 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 939A9F2629EA21290029D7D0 /* SceneDelegate.swift */; };
-		939A9F2929EA21290029D7D0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 939A9F2829EA21290029D7D0 /* ViewController.swift */; };
-		939A9F2C29EA21290029D7D0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 939A9F2A29EA21290029D7D0 /* Main.storyboard */; };
-		939A9F2E29EA212C0029D7D0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 939A9F2D29EA212C0029D7D0 /* Assets.xcassets */; };
-		939A9F3129EA212C0029D7D0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 939A9F2F29EA212C0029D7D0 /* LaunchScreen.storyboard */; };
+		2D0297B52A12246D00519B82 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D0297B42A12246D00519B82 /* AppDelegate.swift */; };
+		2D0297B72A12246D00519B82 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D0297B62A12246D00519B82 /* SceneDelegate.swift */; };
+		2D0297B92A12246D00519B82 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D0297B82A12246D00519B82 /* ViewController.swift */; };
+		2D0297BC2A12246D00519B82 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2D0297BA2A12246D00519B82 /* Main.storyboard */; };
+		2D0297BE2A12246E00519B82 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2D0297BD2A12246E00519B82 /* Assets.xcassets */; };
+		2D0297C12A12246E00519B82 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2D0297BF2A12246E00519B82 /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		939A9F2129EA21290029D7D0 /* react-native-swift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "react-native-swift.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		939A9F2429EA21290029D7D0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		939A9F2629EA21290029D7D0 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		939A9F2829EA21290029D7D0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		939A9F2B29EA21290029D7D0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		939A9F2D29EA212C0029D7D0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		939A9F3029EA212C0029D7D0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		939A9F3229EA212C0029D7D0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2D0297B12A12246D00519B82 /* react-native-swift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "react-native-swift.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2D0297B42A12246D00519B82 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		2D0297B62A12246D00519B82 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		2D0297B82A12246D00519B82 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		2D0297BB2A12246D00519B82 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2D0297BD2A12246E00519B82 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2D0297C02A12246E00519B82 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2D0297C22A12246E00519B82 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		939A9F1E29EA21290029D7D0 /* Frameworks */ = {
+		2D0297AE2A12246D00519B82 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -37,32 +37,32 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		939A9F1829EA21290029D7D0 = {
+		2D0297A82A12246D00519B82 = {
 			isa = PBXGroup;
 			children = (
-				939A9F2329EA21290029D7D0 /* react-native-swift */,
-				939A9F2229EA21290029D7D0 /* Products */,
+				2D0297B32A12246D00519B82 /* react-native-swift */,
+				2D0297B22A12246D00519B82 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		939A9F2229EA21290029D7D0 /* Products */ = {
+		2D0297B22A12246D00519B82 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				939A9F2129EA21290029D7D0 /* react-native-swift.app */,
+				2D0297B12A12246D00519B82 /* react-native-swift.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		939A9F2329EA21290029D7D0 /* react-native-swift */ = {
+		2D0297B32A12246D00519B82 /* react-native-swift */ = {
 			isa = PBXGroup;
 			children = (
-				939A9F2429EA21290029D7D0 /* AppDelegate.swift */,
-				939A9F2629EA21290029D7D0 /* SceneDelegate.swift */,
-				939A9F2829EA21290029D7D0 /* ViewController.swift */,
-				939A9F2A29EA21290029D7D0 /* Main.storyboard */,
-				939A9F2D29EA212C0029D7D0 /* Assets.xcassets */,
-				939A9F2F29EA212C0029D7D0 /* LaunchScreen.storyboard */,
-				939A9F3229EA212C0029D7D0 /* Info.plist */,
+				2D0297B42A12246D00519B82 /* AppDelegate.swift */,
+				2D0297B62A12246D00519B82 /* SceneDelegate.swift */,
+				2D0297B82A12246D00519B82 /* ViewController.swift */,
+				2D0297BA2A12246D00519B82 /* Main.storyboard */,
+				2D0297BD2A12246E00519B82 /* Assets.xcassets */,
+				2D0297BF2A12246E00519B82 /* LaunchScreen.storyboard */,
+				2D0297C22A12246E00519B82 /* Info.plist */,
 			);
 			path = "react-native-swift";
 			sourceTree = "<group>";
@@ -70,13 +70,13 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		939A9F2029EA21290029D7D0 /* react-native-swift */ = {
+		2D0297B02A12246D00519B82 /* react-native-swift */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 939A9F3529EA212C0029D7D0 /* Build configuration list for PBXNativeTarget "react-native-swift" */;
+			buildConfigurationList = 2D0297C52A12246E00519B82 /* Build configuration list for PBXNativeTarget "react-native-swift" */;
 			buildPhases = (
-				939A9F1D29EA21290029D7D0 /* Sources */,
-				939A9F1E29EA21290029D7D0 /* Frameworks */,
-				939A9F1F29EA21290029D7D0 /* Resources */,
+				2D0297AD2A12246D00519B82 /* Sources */,
+				2D0297AE2A12246D00519B82 /* Frameworks */,
+				2D0297AF2A12246D00519B82 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -84,25 +84,25 @@
 			);
 			name = "react-native-swift";
 			productName = "react-native-swift";
-			productReference = 939A9F2129EA21290029D7D0 /* react-native-swift.app */;
+			productReference = 2D0297B12A12246D00519B82 /* react-native-swift.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		939A9F1929EA21290029D7D0 /* Project object */ = {
+		2D0297A92A12246D00519B82 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1420;
 				LastUpgradeCheck = 1420;
 				TargetAttributes = {
-					939A9F2029EA21290029D7D0 = {
+					2D0297B02A12246D00519B82 = {
 						CreatedOnToolsVersion = 14.2;
 					};
 				};
 			};
-			buildConfigurationList = 939A9F1C29EA21290029D7D0 /* Build configuration list for PBXProject "react-native-swift" */;
+			buildConfigurationList = 2D0297AC2A12246D00519B82 /* Build configuration list for PBXProject "react-native-swift" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -110,55 +110,55 @@
 				en,
 				Base,
 			);
-			mainGroup = 939A9F1829EA21290029D7D0;
-			productRefGroup = 939A9F2229EA21290029D7D0 /* Products */;
+			mainGroup = 2D0297A82A12246D00519B82;
+			productRefGroup = 2D0297B22A12246D00519B82 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				939A9F2029EA21290029D7D0 /* react-native-swift */,
+				2D0297B02A12246D00519B82 /* react-native-swift */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		939A9F1F29EA21290029D7D0 /* Resources */ = {
+		2D0297AF2A12246D00519B82 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				939A9F3129EA212C0029D7D0 /* LaunchScreen.storyboard in Resources */,
-				939A9F2E29EA212C0029D7D0 /* Assets.xcassets in Resources */,
-				939A9F2C29EA21290029D7D0 /* Main.storyboard in Resources */,
+				2D0297C12A12246E00519B82 /* LaunchScreen.storyboard in Resources */,
+				2D0297BE2A12246E00519B82 /* Assets.xcassets in Resources */,
+				2D0297BC2A12246D00519B82 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		939A9F1D29EA21290029D7D0 /* Sources */ = {
+		2D0297AD2A12246D00519B82 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				939A9F2929EA21290029D7D0 /* ViewController.swift in Sources */,
-				939A9F2529EA21290029D7D0 /* AppDelegate.swift in Sources */,
-				939A9F2729EA21290029D7D0 /* SceneDelegate.swift in Sources */,
+				2D0297B92A12246D00519B82 /* ViewController.swift in Sources */,
+				2D0297B52A12246D00519B82 /* AppDelegate.swift in Sources */,
+				2D0297B72A12246D00519B82 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		939A9F2A29EA21290029D7D0 /* Main.storyboard */ = {
+		2D0297BA2A12246D00519B82 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				939A9F2B29EA21290029D7D0 /* Base */,
+				2D0297BB2A12246D00519B82 /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		939A9F2F29EA212C0029D7D0 /* LaunchScreen.storyboard */ = {
+		2D0297BF2A12246E00519B82 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				939A9F3029EA212C0029D7D0 /* Base */,
+				2D0297C02A12246E00519B82 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -166,7 +166,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		939A9F3329EA212C0029D7D0 /* Debug */ = {
+		2D0297C32A12246E00519B82 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -226,7 +226,7 @@
 			};
 			name = Debug;
 		};
-		939A9F3429EA212C0029D7D0 /* Release */ = {
+		2D0297C42A12246E00519B82 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -280,7 +280,7 @@
 			};
 			name = Release;
 		};
-		939A9F3629EA212C0029D7D0 /* Debug */ = {
+		2D0297C62A12246E00519B82 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -293,7 +293,8 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -307,7 +308,7 @@
 			};
 			name = Debug;
 		};
-		939A9F3729EA212C0029D7D0 /* Release */ = {
+		2D0297C72A12246E00519B82 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -320,7 +321,8 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -337,25 +339,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		939A9F1C29EA21290029D7D0 /* Build configuration list for PBXProject "react-native-swift" */ = {
+		2D0297AC2A12246D00519B82 /* Build configuration list for PBXProject "react-native-swift" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				939A9F3329EA212C0029D7D0 /* Debug */,
-				939A9F3429EA212C0029D7D0 /* Release */,
+				2D0297C32A12246E00519B82 /* Debug */,
+				2D0297C42A12246E00519B82 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		939A9F3529EA212C0029D7D0 /* Build configuration list for PBXNativeTarget "react-native-swift" */ = {
+		2D0297C52A12246E00519B82 /* Build configuration list for PBXNativeTarget "react-native-swift" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				939A9F3629EA212C0029D7D0 /* Debug */,
-				939A9F3729EA212C0029D7D0 /* Release */,
+				2D0297C62A12246E00519B82 /* Debug */,
+				2D0297C72A12246E00519B82 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 939A9F1929EA21290029D7D0 /* Project object */;
+	rootObject = 2D0297A92A12246D00519B82 /* Project object */;
 }

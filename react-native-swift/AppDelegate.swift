@@ -2,7 +2,7 @@
 //  AppDelegate.swift
 //  react-native-swift
 //
-//  Created by Aaron on 2023/4/15.
+//  Created by Saiki on 2023/5/15.
 //
 
 import UIKit
