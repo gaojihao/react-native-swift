@@ -11,10 +11,6 @@
 		2D0297B92A12246D00519B82 /* ReactNativeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D0297B82A12246D00519B82 /* ReactNativeController.swift */; };
 		2D0297BE2A12246E00519B82 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2D0297BD2A12246E00519B82 /* Assets.xcassets */; };
 		2D0297C12A12246E00519B82 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2D0297BF2A12246E00519B82 /* LaunchScreen.storyboard */; };
-		2D214BAB2A131C700034A642 /* CommonAPIModule.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D214BAA2A131C700034A642 /* CommonAPIModule.m */; };
-		2D214BAF2A131D7C0034A642 /* LoadingViewModule.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D214BAE2A131D7C0034A642 /* LoadingViewModule.m */; };
-		2D214BB22A131DF70034A642 /* DeviceInfoModule.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D214BB12A131DF70034A642 /* DeviceInfoModule.m */; };
-		2D214BB52A131E4D0034A642 /* NativeLocalStorageModule.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D214BB42A131E4D0034A642 /* NativeLocalStorageModule.m */; };
 		2D214BB72A131F1C0034A642 /* LZNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D214BB62A131F1C0034A642 /* LZNavigationController.swift */; };
 		537CD2A727FCD95E4374268D /* Pods_react_native_swift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BBF999A984C99E90FD61F1A9 /* Pods_react_native_swift.framework */; };
 /* End PBXBuildFile section */
@@ -27,15 +23,6 @@
 		2D0297BD2A12246E00519B82 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2D0297C02A12246E00519B82 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2D0297C22A12246E00519B82 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		2D214BA82A131C6F0034A642 /* react-native-swift-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "react-native-swift-Bridging-Header.h"; sourceTree = "<group>"; };
-		2D214BA92A131C700034A642 /* CommonAPIModule.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CommonAPIModule.h; sourceTree = "<group>"; };
-		2D214BAA2A131C700034A642 /* CommonAPIModule.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CommonAPIModule.m; sourceTree = "<group>"; };
-		2D214BAD2A131D7C0034A642 /* LoadingViewModule.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LoadingViewModule.h; sourceTree = "<group>"; };
-		2D214BAE2A131D7C0034A642 /* LoadingViewModule.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LoadingViewModule.m; sourceTree = "<group>"; };
-		2D214BB02A131DF70034A642 /* DeviceInfoModule.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DeviceInfoModule.h; sourceTree = "<group>"; };
-		2D214BB12A131DF70034A642 /* DeviceInfoModule.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DeviceInfoModule.m; sourceTree = "<group>"; };
-		2D214BB32A131E4D0034A642 /* NativeLocalStorageModule.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NativeLocalStorageModule.h; sourceTree = "<group>"; };
-		2D214BB42A131E4D0034A642 /* NativeLocalStorageModule.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NativeLocalStorageModule.m; sourceTree = "<group>"; };
 		2D214BB62A131F1C0034A642 /* LZNavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LZNavigationController.swift; sourceTree = "<group>"; };
 		3706F5EBBDA05B67B4B2E658 /* Pods-react-native-swift.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-react-native-swift.release.xcconfig"; path = "Target Support Files/Pods-react-native-swift/Pods-react-native-swift.release.xcconfig"; sourceTree = "<group>"; };
 		BBF999A984C99E90FD61F1A9 /* Pods_react_native_swift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_react_native_swift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -74,7 +61,6 @@
 		2D0297B32A12246D00519B82 /* react-native-swift */ = {
 			isa = PBXGroup;
 			children = (
-				2D214BA62A131C1E0034A642 /* react-native */,
 				2D0297B42A12246D00519B82 /* AppDelegate.swift */,
 				2D0297B82A12246D00519B82 /* ReactNativeController.swift */,
 				2D0297BD2A12246E00519B82 /* Assets.xcassets */,
@@ -83,30 +69,6 @@
 				2D214BB62A131F1C0034A642 /* LZNavigationController.swift */,
 			);
 			path = "react-native-swift";
-			sourceTree = "<group>";
-		};
-		2D214BA62A131C1E0034A642 /* react-native */ = {
-			isa = PBXGroup;
-			children = (
-				2D214BA72A131C380034A642 /* common */,
-			);
-			path = "react-native";
-			sourceTree = "<group>";
-		};
-		2D214BA72A131C380034A642 /* common */ = {
-			isa = PBXGroup;
-			children = (
-				2D214BA92A131C700034A642 /* CommonAPIModule.h */,
-				2D214BAA2A131C700034A642 /* CommonAPIModule.m */,
-				2D214BA82A131C6F0034A642 /* react-native-swift-Bridging-Header.h */,
-				2D214BAD2A131D7C0034A642 /* LoadingViewModule.h */,
-				2D214BAE2A131D7C0034A642 /* LoadingViewModule.m */,
-				2D214BB02A131DF70034A642 /* DeviceInfoModule.h */,
-				2D214BB12A131DF70034A642 /* DeviceInfoModule.m */,
-				2D214BB32A131E4D0034A642 /* NativeLocalStorageModule.h */,
-				2D214BB42A131E4D0034A642 /* NativeLocalStorageModule.m */,
-			);
-			path = common;
 			sourceTree = "<group>";
 		};
 		57838F2FE3A4E2D5CD4F82DD /* Pods */ = {
@@ -241,13 +203,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2D214BB52A131E4D0034A642 /* NativeLocalStorageModule.m in Sources */,
 				2D0297B92A12246D00519B82 /* ReactNativeController.swift in Sources */,
-				2D214BAF2A131D7C0034A642 /* LoadingViewModule.m in Sources */,
 				2D0297B52A12246D00519B82 /* AppDelegate.swift in Sources */,
-				2D214BAB2A131C700034A642 /* CommonAPIModule.m in Sources */,
 				2D214BB72A131F1C0034A642 /* LZNavigationController.swift in Sources */,
-				2D214BB22A131DF70034A642 /* DeviceInfoModule.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -405,7 +363,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.lizhi1026.react-native-swift";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
-				SWIFT_OBJC_BRIDGING_HEADER = "react-native-swift/react-native/common/react-native-swift-Bridging-Header.h";
+				SWIFT_OBJC_BRIDGING_HEADER = "";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -438,7 +396,6 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.lizhi1026.react-native-swift";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
-				SWIFT_OBJC_BRIDGING_HEADER = "react-native-swift/react-native/common/react-native-swift-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};

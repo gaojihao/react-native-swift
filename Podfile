@@ -1,12 +1,9 @@
 # Uncomment the next line to define a global platform for your project
 source 'https://github.com/CocoaPods/Specs.git'
 
-require_relative './node_modules/react-native/scripts/react_native_pods'
-require_relative './node_modules/@react-native-community/cli-platform-ios/native_modules'
 
 platform :ios, '13.0'
 
-prepare_react_native_project!
 
 target 'react-native-swift' do
   # Comment the next line if you don't want to use dynamic frameworks
@@ -14,17 +11,6 @@ target 'react-native-swift' do
 
   # 布局
   pod 'SnapKit'
-
-
-  
-  config = use_native_modules!
-
-    use_react_native!(
-      :path => config[:reactNativePath],
-      :hermes_enabled => false,
-      :fabric_enabled => false,
-      :app_path => "#{Pod::Config.instance.installation_root}/.."
-    )
 
 end
 
