@@ -12,6 +12,13 @@
 		2D0297BE2A12246E00519B82 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2D0297BD2A12246E00519B82 /* Assets.xcassets */; };
 		2D0297C12A12246E00519B82 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2D0297BF2A12246E00519B82 /* LaunchScreen.storyboard */; };
 		2D214BB72A131F1C0034A642 /* LZNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D214BB62A131F1C0034A642 /* LZNavigationController.swift */; };
+		2D629DAE2C5A5E3600DAFC09 /* LZTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D629DAD2C5A5E3600DAFC09 /* LZTabBarController.swift */; };
+		2D629DB02C5A5F5F00DAFC09 /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D629DAF2C5A5F5F00DAFC09 /* BaseViewController.swift */; };
+		2D629DCC2C5A607300DAFC09 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D629DCB2C5A607300DAFC09 /* HomeViewController.swift */; };
+		2D629DCE2C5A608600DAFC09 /* MineViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D629DCD2C5A608600DAFC09 /* MineViewController.swift */; };
+		2D629DD02C5A609D00DAFC09 /* CommunityViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D629DCF2C5A609D00DAFC09 /* CommunityViewController.swift */; };
+		2D629DD22C5A60AE00DAFC09 /* LiveViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D629DD12C5A60AE00DAFC09 /* LiveViewController.swift */; };
+		2D629DD42C5A60C100DAFC09 /* ScoreViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D629DD32C5A60C100DAFC09 /* ScoreViewController.swift */; };
 		537CD2A727FCD95E4374268D /* Pods_react_native_swift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BBF999A984C99E90FD61F1A9 /* Pods_react_native_swift.framework */; };
 /* End PBXBuildFile section */
 
@@ -24,6 +31,13 @@
 		2D0297C02A12246E00519B82 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2D0297C22A12246E00519B82 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2D214BB62A131F1C0034A642 /* LZNavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LZNavigationController.swift; sourceTree = "<group>"; };
+		2D629DAD2C5A5E3600DAFC09 /* LZTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LZTabBarController.swift; sourceTree = "<group>"; };
+		2D629DAF2C5A5F5F00DAFC09 /* BaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
+		2D629DCB2C5A607300DAFC09 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		2D629DCD2C5A608600DAFC09 /* MineViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MineViewController.swift; sourceTree = "<group>"; };
+		2D629DCF2C5A609D00DAFC09 /* CommunityViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommunityViewController.swift; sourceTree = "<group>"; };
+		2D629DD12C5A60AE00DAFC09 /* LiveViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LiveViewController.swift; sourceTree = "<group>"; };
+		2D629DD32C5A60C100DAFC09 /* ScoreViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScoreViewController.swift; sourceTree = "<group>"; };
 		3706F5EBBDA05B67B4B2E658 /* Pods-react-native-swift.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-react-native-swift.release.xcconfig"; path = "Target Support Files/Pods-react-native-swift/Pods-react-native-swift.release.xcconfig"; sourceTree = "<group>"; };
 		BBF999A984C99E90FD61F1A9 /* Pods_react_native_swift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_react_native_swift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -61,6 +75,8 @@
 		2D0297B32A12246D00519B82 /* react-native-swift */ = {
 			isa = PBXGroup;
 			children = (
+				2D629DB12C5A5F6700DAFC09 /* Biz */,
+				2D629DAC2C5A5E0D00DAFC09 /* Base */,
 				2D0297B42A12246D00519B82 /* AppDelegate.swift */,
 				2D0297B82A12246D00519B82 /* ReactNativeController.swift */,
 				2D0297BD2A12246E00519B82 /* Assets.xcassets */,
@@ -69,6 +85,227 @@
 				2D214BB62A131F1C0034A642 /* LZNavigationController.swift */,
 			);
 			path = "react-native-swift";
+			sourceTree = "<group>";
+		};
+		2D629DAC2C5A5E0D00DAFC09 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				2D629DAD2C5A5E3600DAFC09 /* LZTabBarController.swift */,
+				2D629DAF2C5A5F5F00DAFC09 /* BaseViewController.swift */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		2D629DB12C5A5F6700DAFC09 /* Biz */ = {
+			isa = PBXGroup;
+			children = (
+				2D629DB62C5A5FC800DAFC09 /* Score */,
+				2D629DB52C5A5FB300DAFC09 /* Live */,
+				2D629DB42C5A5F9000DAFC09 /* Community */,
+				2D629DB32C5A5F8600DAFC09 /* Mine */,
+				2D629DB22C5A5F7C00DAFC09 /* Home */,
+			);
+			path = Biz;
+			sourceTree = "<group>";
+		};
+		2D629DB22C5A5F7C00DAFC09 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				2D629DCA2C5A605500DAFC09 /* Model */,
+				2D629DC72C5A605500DAFC09 /* View */,
+				2D629DC82C5A605500DAFC09 /* ViewController */,
+				2D629DC92C5A605500DAFC09 /* ViewModel */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		2D629DB32C5A5F8600DAFC09 /* Mine */ = {
+			isa = PBXGroup;
+			children = (
+				2D629DC42C5A604000DAFC09 /* Model */,
+				2D629DC62C5A604000DAFC09 /* View */,
+				2D629DC32C5A604000DAFC09 /* ViewController */,
+				2D629DC52C5A604000DAFC09 /* ViewModel */,
+			);
+			path = Mine;
+			sourceTree = "<group>";
+		};
+		2D629DB42C5A5F9000DAFC09 /* Community */ = {
+			isa = PBXGroup;
+			children = (
+				2D629DC12C5A603800DAFC09 /* Model */,
+				2D629DBF2C5A603800DAFC09 /* View */,
+				2D629DC02C5A603800DAFC09 /* ViewController */,
+				2D629DC22C5A603800DAFC09 /* ViewModel */,
+			);
+			path = Community;
+			sourceTree = "<group>";
+		};
+		2D629DB52C5A5FB300DAFC09 /* Live */ = {
+			isa = PBXGroup;
+			children = (
+				2D629DBD2C5A602D00DAFC09 /* Model */,
+				2D629DBC2C5A602D00DAFC09 /* View */,
+				2D629DBE2C5A602D00DAFC09 /* ViewController */,
+				2D629DBB2C5A602D00DAFC09 /* ViewModel */,
+			);
+			path = Live;
+			sourceTree = "<group>";
+		};
+		2D629DB62C5A5FC800DAFC09 /* Score */ = {
+			isa = PBXGroup;
+			children = (
+				2D629DB92C5A602300DAFC09 /* Model */,
+				2D629DB82C5A602300DAFC09 /* View */,
+				2D629DB72C5A602300DAFC09 /* ViewController */,
+				2D629DBA2C5A602300DAFC09 /* ViewModel */,
+			);
+			path = Score;
+			sourceTree = "<group>";
+		};
+		2D629DB72C5A602300DAFC09 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				2D629DD32C5A60C100DAFC09 /* ScoreViewController.swift */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		2D629DB82C5A602300DAFC09 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		2D629DB92C5A602300DAFC09 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		2D629DBA2C5A602300DAFC09 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		2D629DBB2C5A602D00DAFC09 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		2D629DBC2C5A602D00DAFC09 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		2D629DBD2C5A602D00DAFC09 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		2D629DBE2C5A602D00DAFC09 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				2D629DD12C5A60AE00DAFC09 /* LiveViewController.swift */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		2D629DBF2C5A603800DAFC09 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		2D629DC02C5A603800DAFC09 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				2D629DCF2C5A609D00DAFC09 /* CommunityViewController.swift */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		2D629DC12C5A603800DAFC09 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		2D629DC22C5A603800DAFC09 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		2D629DC32C5A604000DAFC09 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				2D629DCD2C5A608600DAFC09 /* MineViewController.swift */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		2D629DC42C5A604000DAFC09 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		2D629DC52C5A604000DAFC09 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		2D629DC62C5A604000DAFC09 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		2D629DC72C5A605500DAFC09 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		2D629DC82C5A605500DAFC09 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				2D629DCB2C5A607300DAFC09 /* HomeViewController.swift */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		2D629DC92C5A605500DAFC09 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		2D629DCA2C5A605500DAFC09 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 		57838F2FE3A4E2D5CD4F82DD /* Pods */ = {
@@ -203,9 +440,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2D629DB02C5A5F5F00DAFC09 /* BaseViewController.swift in Sources */,
 				2D0297B92A12246D00519B82 /* ReactNativeController.swift in Sources */,
+				2D629DAE2C5A5E3600DAFC09 /* LZTabBarController.swift in Sources */,
+				2D629DCE2C5A608600DAFC09 /* MineViewController.swift in Sources */,
+				2D629DD02C5A609D00DAFC09 /* CommunityViewController.swift in Sources */,
 				2D0297B52A12246D00519B82 /* AppDelegate.swift in Sources */,
 				2D214BB72A131F1C0034A642 /* LZNavigationController.swift in Sources */,
+				2D629DD42C5A60C100DAFC09 /* ScoreViewController.swift in Sources */,
+				2D629DD22C5A60AE00DAFC09 /* LiveViewController.swift in Sources */,
+				2D629DCC2C5A607300DAFC09 /* HomeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

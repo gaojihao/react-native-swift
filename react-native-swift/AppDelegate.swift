@@ -12,8 +12,8 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     var window: UIWindow? = nil
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
-        let reactNativeVC = ReactNativeController()
-        let rootVC = LZNavigationController(rootViewController: reactNativeVC)
+        let tabBarController = LZTabBarController()
+        let rootVC = LZNavigationController(rootViewController: tabBarController)
         window = UIWindow(frame: UIScreen.main.bounds)
         window?.backgroundColor = .white
         window?.rootViewController = rootVC
