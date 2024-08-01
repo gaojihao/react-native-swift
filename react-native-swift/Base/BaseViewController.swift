@@ -11,19 +11,24 @@ class BaseViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-
-        // Do any additional setup after loading the view.
+        view.backgroundColor = UIColor(hex: "#080808", alpha: 1)
+        // 装载视图
+        setupView()
+        
+        // 绑定 ViewModel
+        bindViewModel()
+        
+        // 加载数据
+        loadData()
+        // 更新约束
+        view.setNeedsUpdateConstraints()
     }
     
-
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
-    }
-    */
-
+    /// 装载视图
+    @objc open func setupView() {}
+    /// 添加订阅
+    @objc open func bindViewModel() {}
+    /// 加载数据
+    @objc open func loadData() {}
+    
 }

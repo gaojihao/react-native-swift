@@ -28,25 +28,32 @@ class LZTabBarController: UITabBarController, UITabBarControllerDelegate {
         mine.tabBarItem = UITabBarItem.init(title: "Forecast", image: UIImage(named: "community_tabbar_icon", in: Bundle.main, with: nil), selectedImage: UIImage(named: "community_tabbar_icon"))
         
         self.viewControllers = [home, score, live, community, mine]
-        
         tabBar.isTranslucent = false
-//        tabBar.items = [UITabBarItem.init(title: "Arena", image: UIImage(named: "community_tabbar_icon"), selectedImage: UIImage(named: "community_tabbar_icon")),
-//                        UITabBarItem.init(title: "Arena", image: UIImage(named: "community_tabbar_icon"), selectedImage: UIImage(named: "community_tabbar_icon")),
-//                        UITabBarItem.init(title: "Arena", image: UIImage(named: "community_tabbar_icon"), selectedImage: UIImage(named: "community_tabbar_icon")),
-//                        UITabBarItem.init(title: "Arena", image: UIImage(named: "community_tabbar_icon"), selectedImage: UIImage(named: "community_tabbar_icon")),
-//                        UITabBarItem.init(title: "Arena", image: UIImage(named: "community_tabbar_icon"), selectedImage: UIImage(named: "community_tabbar_icon"))]
+        tabBar.backgroundColor = UIColor(r: 8, g: 8, b: 8, a: 0.8)
+
+        
+        let appearnce = UITabBarAppearance()
+        appearnce.configureWithOpaqueBackground()
+        appearnce.backgroundColor = UIColor(r: 8, g: 8, b: 8, a: 0.8)
+        tabBar.standardAppearance = appearnce
+        if #available(iOS 15.0, *) {
+            tabBar.scrollEdgeAppearance = appearnce
+        } else {
+            // Fallback on earlier versions
+        }
         // 设置 tabBar & tabBarItem
-//        setTabBarItemAttributes(bgColor: UIColor(red: 0.95, green: 0.95, blue: 0.95, alpha: 1))
+        setTabBarItemAttributes(bgColor: UIColor(r: 8, g: 8, b: 8, a: 0.8))
     }
+    
     
     /// 这种方式比较灵活
         func setTabBarItemAttributes(fontName: String = "Courier",
                                      fontSize: CGFloat = 14,
-                                     normalColor: UIColor = .gray,
-                                     selectedColor: UIColor = .red,
-                                     bgColor: UIColor = .white) {
+                                     normalColor: UIColor = UIColor(r: 163, g: 163, b: 163, a: 1),
+                                     selectedColor: UIColor = UIColor.white,
+                                     bgColor: UIColor = UIColor.white) {
             // tabBarItem 文字大小
-            var attributes: [NSAttributedString.Key: Any] = [.font: UIFont(name: fontName, size: fontSize)!]
+            var attributes: [NSAttributedString.Key: Any] = [:]
             
             // tabBarItem 文字默认颜色
             attributes[.foregroundColor] = normalColor
@@ -57,11 +64,23 @@ class LZTabBarController: UITabBarController, UITabBarControllerDelegate {
             UITabBarItem.appearance().setTitleTextAttributes(attributes, for: .selected)
             
             // tabBar 文字、图片 统一选中高亮色
-//            tabBar.tintColor = selectedColor
+            tabBar.tintColor = selectedColor
             
             // tabBar 背景色
             tabBar.barTintColor = bgColor
         }
+    
+    func configTabBarItem(controller: UIViewController) {
+        let tabBarApperance = controller.tabBarItem.standardAppearance?.copy() ?? UITabBarAppearance()
+        tabBarApperance.stackedLayoutAppearance.normal.titleTextAttributes = [.foregroundColor: UIColor.white]
+        tabBarApperance.stackedLayoutAppearance.selected.titleTextAttributes = [.foregroundColor: UIColor.red]
+        tabBarApperance.stackedLayoutAppearance.normal.iconColor = .orange
+        tabBarApperance.stackedLayoutAppearance.selected.iconColor = .blue
+        tabBarApperance.backgroundColor = .purple
+        tabBarApperance.backgroundEffect = nil
+        
+        tabBarItem.standardAppearance = tabBarApperance
+    }
 }
 
 // MARK: 关于屏幕旋转

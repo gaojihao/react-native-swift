@@ -12,6 +12,7 @@
 		2D0297BE2A12246E00519B82 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2D0297BD2A12246E00519B82 /* Assets.xcassets */; };
 		2D0297C12A12246E00519B82 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2D0297BF2A12246E00519B82 /* LaunchScreen.storyboard */; };
 		2D214BB72A131F1C0034A642 /* LZNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D214BB62A131F1C0034A642 /* LZNavigationController.swift */; };
+		2D49B81D2C5B41B6000947C0 /* Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D49B81C2C5B41B6000947C0 /* Color.swift */; };
 		2D629DAE2C5A5E3600DAFC09 /* LZTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D629DAD2C5A5E3600DAFC09 /* LZTabBarController.swift */; };
 		2D629DB02C5A5F5F00DAFC09 /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D629DAF2C5A5F5F00DAFC09 /* BaseViewController.swift */; };
 		2D629DCC2C5A607300DAFC09 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D629DCB2C5A607300DAFC09 /* HomeViewController.swift */; };
@@ -19,6 +20,7 @@
 		2D629DD02C5A609D00DAFC09 /* CommunityViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D629DCF2C5A609D00DAFC09 /* CommunityViewController.swift */; };
 		2D629DD22C5A60AE00DAFC09 /* LiveViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D629DD12C5A60AE00DAFC09 /* LiveViewController.swift */; };
 		2D629DD42C5A60C100DAFC09 /* ScoreViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D629DD32C5A60C100DAFC09 /* ScoreViewController.swift */; };
+		2D629DD62C5B20AD00DAFC09 /* BaseTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D629DD52C5B20AD00DAFC09 /* BaseTableViewController.swift */; };
 		537CD2A727FCD95E4374268D /* Pods_react_native_swift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BBF999A984C99E90FD61F1A9 /* Pods_react_native_swift.framework */; };
 /* End PBXBuildFile section */
 
@@ -31,6 +33,7 @@
 		2D0297C02A12246E00519B82 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2D0297C22A12246E00519B82 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2D214BB62A131F1C0034A642 /* LZNavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LZNavigationController.swift; sourceTree = "<group>"; };
+		2D49B81C2C5B41B6000947C0 /* Color.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Color.swift; sourceTree = "<group>"; };
 		2D629DAD2C5A5E3600DAFC09 /* LZTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LZTabBarController.swift; sourceTree = "<group>"; };
 		2D629DAF2C5A5F5F00DAFC09 /* BaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
 		2D629DCB2C5A607300DAFC09 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
@@ -38,6 +41,7 @@
 		2D629DCF2C5A609D00DAFC09 /* CommunityViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommunityViewController.swift; sourceTree = "<group>"; };
 		2D629DD12C5A60AE00DAFC09 /* LiveViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LiveViewController.swift; sourceTree = "<group>"; };
 		2D629DD32C5A60C100DAFC09 /* ScoreViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScoreViewController.swift; sourceTree = "<group>"; };
+		2D629DD52C5B20AD00DAFC09 /* BaseTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseTableViewController.swift; sourceTree = "<group>"; };
 		3706F5EBBDA05B67B4B2E658 /* Pods-react-native-swift.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-react-native-swift.release.xcconfig"; path = "Target Support Files/Pods-react-native-swift/Pods-react-native-swift.release.xcconfig"; sourceTree = "<group>"; };
 		BBF999A984C99E90FD61F1A9 /* Pods_react_native_swift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_react_native_swift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -75,6 +79,7 @@
 		2D0297B32A12246D00519B82 /* react-native-swift */ = {
 			isa = PBXGroup;
 			children = (
+				2D49B81B2C5B4174000947C0 /* Util */,
 				2D629DB12C5A5F6700DAFC09 /* Biz */,
 				2D629DAC2C5A5E0D00DAFC09 /* Base */,
 				2D0297B42A12246D00519B82 /* AppDelegate.swift */,
@@ -87,11 +92,20 @@
 			path = "react-native-swift";
 			sourceTree = "<group>";
 		};
+		2D49B81B2C5B4174000947C0 /* Util */ = {
+			isa = PBXGroup;
+			children = (
+				2D49B81C2C5B41B6000947C0 /* Color.swift */,
+			);
+			path = Util;
+			sourceTree = "<group>";
+		};
 		2D629DAC2C5A5E0D00DAFC09 /* Base */ = {
 			isa = PBXGroup;
 			children = (
 				2D629DAD2C5A5E3600DAFC09 /* LZTabBarController.swift */,
 				2D629DAF2C5A5F5F00DAFC09 /* BaseViewController.swift */,
+				2D629DD52C5B20AD00DAFC09 /* BaseTableViewController.swift */,
 			);
 			path = Base;
 			sourceTree = "<group>";
@@ -445,10 +459,12 @@
 				2D629DAE2C5A5E3600DAFC09 /* LZTabBarController.swift in Sources */,
 				2D629DCE2C5A608600DAFC09 /* MineViewController.swift in Sources */,
 				2D629DD02C5A609D00DAFC09 /* CommunityViewController.swift in Sources */,
+				2D49B81D2C5B41B6000947C0 /* Color.swift in Sources */,
 				2D0297B52A12246D00519B82 /* AppDelegate.swift in Sources */,
 				2D214BB72A131F1C0034A642 /* LZNavigationController.swift in Sources */,
 				2D629DD42C5A60C100DAFC09 /* ScoreViewController.swift in Sources */,
 				2D629DD22C5A60AE00DAFC09 /* LiveViewController.swift in Sources */,
+				2D629DD62C5B20AD00DAFC09 /* BaseTableViewController.swift in Sources */,
 				2D629DCC2C5A607300DAFC09 /* HomeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -598,7 +614,7 @@
 				INFOPLIST_KEY_UIStatusBarStyle = UIStatusBarStyleLightContent;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
-				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -631,7 +647,7 @@
 				INFOPLIST_KEY_UIStatusBarStyle = UIStatusBarStyleLightContent;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
-				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

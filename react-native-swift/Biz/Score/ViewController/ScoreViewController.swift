@@ -10,6 +10,6 @@ import UIKit
 class ScoreViewController: BaseViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
-        self.view.backgroundColor  = .blue
+//        self.view.backgroundColor  = .blue
     }
 }

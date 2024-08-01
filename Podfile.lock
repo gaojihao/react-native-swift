@@ -1,16 +1,42 @@
 PODS:
+  - Alamofire (5.9.1)
+  - CombineCocoa (0.4.1)
+  - Kingfisher (7.12.0)
+  - MJRefresh (3.7.9)
   - SnapKit (5.6.0)
+  - URLNavigator (2.5.1)
+  - ZLPhotoBrowser (4.5.4):
+    - ZLPhotoBrowser/Core (= 4.5.4)
+  - ZLPhotoBrowser/Core (4.5.4)
 
 DEPENDENCIES:
+  - Alamofire
+  - CombineCocoa
+  - Kingfisher
+  - MJRefresh
   - SnapKit
+  - URLNavigator
+  - ZLPhotoBrowser
 
 SPEC REPOS:
   https://github.com/CocoaPods/Specs.git:
+    - Alamofire
+    - CombineCocoa
+    - Kingfisher
+    - MJRefresh
     - SnapKit
+    - URLNavigator
+    - ZLPhotoBrowser
 
 SPEC CHECKSUMS:
+  Alamofire: f36a35757af4587d8e4f4bfa223ad10be2422b8c
+  CombineCocoa: e5210dbfb480ff251078929459ac17e750e7af1d
+  Kingfisher: 53a10ea35051a436b5fb626ca2dd8f3144d755e9
+  MJRefresh: ff9e531227924c84ce459338414550a05d2aea78
   SnapKit: e01d52ebb8ddbc333eefe2132acf85c8227d9c25
+  URLNavigator: e9c0426ba6e6ac57f34d018bbf3df840797f984d
+  ZLPhotoBrowser: 68ab8554845ce05a41d49f293a0e30beb519101f
 
-PODFILE CHECKSUM: 98f8f5da2519599b7691aadb2e7835fc57fc5fcd
+PODFILE CHECKSUM: 64441746317b85e6a517f17b04d77d22f0cc03d2
 
-COCOAPODS: 1.11.3
+COCOAPODS: 1.15.2
