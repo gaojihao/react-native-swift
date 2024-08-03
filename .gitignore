@@ -25,6 +25,7 @@ Pods/
 
 # Bundler
 .bundle
+.xcworkspace
 
 # react-native
 /node_modules/
