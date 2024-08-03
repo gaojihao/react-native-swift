@@ -22,7 +22,7 @@ class CommunityViewController: BaseViewController {
         webView.uiDelegate = self
         webView.allowsBackForwardNavigationGestures = true
         webView.scrollView.bounces = false
-        webView.scrollView.isScrollEnabled = true
+//        webView.scrollView.isScrollEnabled = true
         webView.scrollView.showsVerticalScrollIndicator = false
         webView.scrollView.showsHorizontalScrollIndicator = false
         webView.scrollView.isScrollEnabled = true
@@ -30,9 +30,8 @@ class CommunityViewController: BaseViewController {
         self.view.addSubview(webView)
         
         webView.snp.makeConstraints { make in
-            make.left.right.equalTo(self.view)
+            make.left.right.bottom.equalTo(self.view)
             make.top.equalTo(self.view.snp.top)
-            make.bottom.equalTo(self.view.snp_bottomMargin)
         }
     }
 }

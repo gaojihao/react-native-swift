@@ -13,6 +13,10 @@
 		2D0297C12A12246E00519B82 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2D0297BF2A12246E00519B82 /* LaunchScreen.storyboard */; };
 		2D214BB72A131F1C0034A642 /* LZNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D214BB62A131F1C0034A642 /* LZNavigationController.swift */; };
 		2D49B81D2C5B41B6000947C0 /* Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D49B81C2C5B41B6000947C0 /* Color.swift */; };
+		2D49B81F2C5E1624000947C0 /* Toast.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D49B81E2C5E1624000947C0 /* Toast.swift */; };
+		2D49B8212C5E1671000947C0 /* Loading.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D49B8202C5E1671000947C0 /* Loading.swift */; };
+		2D49B8232C5E17E9000947C0 /* PopView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D49B8222C5E17E9000947C0 /* PopView.swift */; };
+		2D49B8252C5E1857000947C0 /* Layout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D49B8242C5E1857000947C0 /* Layout.swift */; };
 		2D629DAE2C5A5E3600DAFC09 /* LZTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D629DAD2C5A5E3600DAFC09 /* LZTabBarController.swift */; };
 		2D629DB02C5A5F5F00DAFC09 /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D629DAF2C5A5F5F00DAFC09 /* BaseViewController.swift */; };
 		2D629DCC2C5A607300DAFC09 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D629DCB2C5A607300DAFC09 /* HomeViewController.swift */; };
@@ -34,6 +38,10 @@
 		2D0297C22A12246E00519B82 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2D214BB62A131F1C0034A642 /* LZNavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LZNavigationController.swift; sourceTree = "<group>"; };
 		2D49B81C2C5B41B6000947C0 /* Color.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Color.swift; sourceTree = "<group>"; };
+		2D49B81E2C5E1624000947C0 /* Toast.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Toast.swift; sourceTree = "<group>"; };
+		2D49B8202C5E1671000947C0 /* Loading.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Loading.swift; sourceTree = "<group>"; };
+		2D49B8222C5E17E9000947C0 /* PopView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopView.swift; sourceTree = "<group>"; };
+		2D49B8242C5E1857000947C0 /* Layout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Layout.swift; sourceTree = "<group>"; };
 		2D629DAD2C5A5E3600DAFC09 /* LZTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LZTabBarController.swift; sourceTree = "<group>"; };
 		2D629DAF2C5A5F5F00DAFC09 /* BaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
 		2D629DCB2C5A607300DAFC09 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
@@ -96,6 +104,9 @@
 			isa = PBXGroup;
 			children = (
 				2D49B81C2C5B41B6000947C0 /* Color.swift */,
+				2D49B81E2C5E1624000947C0 /* Toast.swift */,
+				2D49B8202C5E1671000947C0 /* Loading.swift */,
+				2D49B8242C5E1857000947C0 /* Layout.swift */,
 			);
 			path = Util;
 			sourceTree = "<group>";
@@ -106,6 +117,7 @@
 				2D629DAD2C5A5E3600DAFC09 /* LZTabBarController.swift */,
 				2D629DAF2C5A5F5F00DAFC09 /* BaseViewController.swift */,
 				2D629DD52C5B20AD00DAFC09 /* BaseTableViewController.swift */,
+				2D49B8222C5E17E9000947C0 /* PopView.swift */,
 			);
 			path = Base;
 			sourceTree = "<group>";
@@ -454,14 +466,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2D49B81F2C5E1624000947C0 /* Toast.swift in Sources */,
 				2D629DB02C5A5F5F00DAFC09 /* BaseViewController.swift in Sources */,
 				2D0297B92A12246D00519B82 /* ReactNativeController.swift in Sources */,
 				2D629DAE2C5A5E3600DAFC09 /* LZTabBarController.swift in Sources */,
+				2D49B8212C5E1671000947C0 /* Loading.swift in Sources */,
+				2D49B8252C5E1857000947C0 /* Layout.swift in Sources */,
 				2D629DCE2C5A608600DAFC09 /* MineViewController.swift in Sources */,
 				2D629DD02C5A609D00DAFC09 /* CommunityViewController.swift in Sources */,
 				2D49B81D2C5B41B6000947C0 /* Color.swift in Sources */,
 				2D0297B52A12246D00519B82 /* AppDelegate.swift in Sources */,
 				2D214BB72A131F1C0034A642 /* LZNavigationController.swift in Sources */,
+				2D49B8232C5E17E9000947C0 /* PopView.swift in Sources */,
 				2D629DD42C5A60C100DAFC09 /* ScoreViewController.swift in Sources */,
 				2D629DD22C5A60AE00DAFC09 /* LiveViewController.swift in Sources */,
 				2D629DD62C5B20AD00DAFC09 /* BaseTableViewController.swift in Sources */,
