@@ -22,10 +22,11 @@ Pods/
 
 # app code
 .idea
+.xcworkspace
 
 # Bundler
 .bundle
-.xcworkspace
+*.xcworkspace
 
 # react-native
 /node_modules/
