@@ -21,6 +21,7 @@
 		2D49B82A2C5F46D0000947C0 /* Account.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D49B8292C5F46CF000947C0 /* Account.swift */; };
 		2D49B82D2C5F4B1B000947C0 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D49B82C2C5F4B1B000947C0 /* NetworkManager.swift */; };
 		2D49B82F2C5F4B58000947C0 /* API.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D49B82E2C5F4B58000947C0 /* API.swift */; };
+		2D49B8332C5F72FD000947C0 /* NavigationBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D49B8322C5F72FD000947C0 /* NavigationBar.swift */; };
 		2D629DAE2C5A5E3600DAFC09 /* LZTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D629DAD2C5A5E3600DAFC09 /* LZTabBarController.swift */; };
 		2D629DB02C5A5F5F00DAFC09 /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D629DAF2C5A5F5F00DAFC09 /* BaseViewController.swift */; };
 		2D629DCC2C5A607300DAFC09 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D629DCB2C5A607300DAFC09 /* HomeViewController.swift */; };
@@ -50,6 +51,7 @@
 		2D49B8292C5F46CF000947C0 /* Account.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Account.swift; sourceTree = "<group>"; };
 		2D49B82C2C5F4B1B000947C0 /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
 		2D49B82E2C5F4B58000947C0 /* API.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = API.swift; sourceTree = "<group>"; };
+		2D49B8322C5F72FD000947C0 /* NavigationBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationBar.swift; sourceTree = "<group>"; };
 		2D629DAD2C5A5E3600DAFC09 /* LZTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LZTabBarController.swift; sourceTree = "<group>"; };
 		2D629DAF2C5A5F5F00DAFC09 /* BaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
 		2D629DCB2C5A607300DAFC09 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
@@ -146,6 +148,7 @@
 				2D629DAF2C5A5F5F00DAFC09 /* BaseViewController.swift */,
 				2D629DD52C5B20AD00DAFC09 /* BaseTableViewController.swift */,
 				2D49B8222C5E17E9000947C0 /* PopView.swift */,
+				2D49B8322C5F72FD000947C0 /* NavigationBar.swift */,
 			);
 			path = Base;
 			sourceTree = "<group>";
@@ -505,6 +508,7 @@
 				2D629DCE2C5A608600DAFC09 /* MineViewController.swift in Sources */,
 				2D629DD02C5A609D00DAFC09 /* CommunityViewController.swift in Sources */,
 				2D49B81D2C5B41B6000947C0 /* Color.swift in Sources */,
+				2D49B8332C5F72FD000947C0 /* NavigationBar.swift in Sources */,
 				2D0297B52A12246D00519B82 /* AppDelegate.swift in Sources */,
 				2D214BB72A131F1C0034A642 /* LZNavigationController.swift in Sources */,
 				2D49B8232C5E17E9000947C0 /* PopView.swift in Sources */,

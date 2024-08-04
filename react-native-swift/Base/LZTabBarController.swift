@@ -43,6 +43,8 @@ class LZTabBarController: UITabBarController, UITabBarControllerDelegate {
         }
         // 设置 tabBar & tabBarItem
         setTabBarItemAttributes(bgColor: UIColor(r: 8, g: 8, b: 8, a: 0.8))
+        
+        NotificationCenter.default.addObserver(self, selector: #selector(recvNotification(_:)), name: NSNotification.Name(rawValue: "tabJump"), object: nil)
     }
     
     
@@ -70,6 +72,7 @@ class LZTabBarController: UITabBarController, UITabBarControllerDelegate {
             tabBar.barTintColor = bgColor
         }
     
+    
     func configTabBarItem(controller: UIViewController) {
         let tabBarApperance = controller.tabBarItem.standardAppearance?.copy() ?? UITabBarAppearance()
         tabBarApperance.stackedLayoutAppearance.normal.titleTextAttributes = [.foregroundColor: UIColor.white]
@@ -80,6 +83,15 @@ class LZTabBarController: UITabBarController, UITabBarControllerDelegate {
         tabBarApperance.backgroundEffect = nil
         
         tabBarItem.standardAppearance = tabBarApperance
+    }
+    
+    @objc func recvNotification(_ notification:Notification) {
+        let index = notification.object as! Int
+        self.selectedIndex = index
+    }
+    
+    deinit {
+        NotificationCenter.default.removeObserver(self)
     }
 }
 
