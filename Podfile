@@ -16,6 +16,8 @@ target 'react-native-swift' do
   pod 'Kingfisher'
   pod 'URLNavigator'
   pod 'ZLPhotoBrowser'
+  pod 'Moya'
+  pod 'SwiftyJSON'
 
 end
 

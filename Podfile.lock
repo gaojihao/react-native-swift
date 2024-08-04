@@ -3,7 +3,12 @@ PODS:
   - CombineCocoa (0.4.1)
   - Kingfisher (7.12.0)
   - MJRefresh (3.7.9)
+  - Moya (15.0.0):
+    - Moya/Core (= 15.0.0)
+  - Moya/Core (15.0.0):
+    - Alamofire (~> 5.0)
   - SnapKit (5.6.0)
+  - SwiftyJSON (5.0.2)
   - URLNavigator (2.5.1)
   - ZLPhotoBrowser (4.5.4):
     - ZLPhotoBrowser/Core (= 4.5.4)
@@ -14,7 +19,9 @@ DEPENDENCIES:
   - CombineCocoa
   - Kingfisher
   - MJRefresh
+  - Moya
   - SnapKit
+  - SwiftyJSON
   - URLNavigator
   - ZLPhotoBrowser
 
@@ -24,7 +31,9 @@ SPEC REPOS:
     - CombineCocoa
     - Kingfisher
     - MJRefresh
+    - Moya
     - SnapKit
+    - SwiftyJSON
     - URLNavigator
     - ZLPhotoBrowser
 
@@ -33,10 +42,12 @@ SPEC CHECKSUMS:
   CombineCocoa: e5210dbfb480ff251078929459ac17e750e7af1d
   Kingfisher: 53a10ea35051a436b5fb626ca2dd8f3144d755e9
   MJRefresh: ff9e531227924c84ce459338414550a05d2aea78
+  Moya: 138f0573e53411fb3dc17016add0b748dfbd78ee
   SnapKit: e01d52ebb8ddbc333eefe2132acf85c8227d9c25
+  SwiftyJSON: f5b1bf1cd8dd53cd25887ac0eabcfd92301c6a5a
   URLNavigator: e9c0426ba6e6ac57f34d018bbf3df840797f984d
   ZLPhotoBrowser: 68ab8554845ce05a41d49f293a0e30beb519101f
 
-PODFILE CHECKSUM: 2fe8b9d21cfc3a3eaaaef9f8ea3426822923e665
+PODFILE CHECKSUM: d95b55cb1b97efdd76b6337c35e37c4c6c398bef
 
 COCOAPODS: 1.15.2
