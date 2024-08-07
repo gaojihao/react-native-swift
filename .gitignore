@@ -5,3 +5,7 @@ deploy_versions/
 node_modules/
 .DS_Store
 Pods/
+build/
+.idea/
+xcuserdata/
+.xcworkspace
