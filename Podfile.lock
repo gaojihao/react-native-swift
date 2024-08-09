@@ -907,12 +907,8 @@ PODS:
   - React-Mapbuffer (0.74.5):
     - glog
     - React-debug
-  - react-native-safe-area-context (4.5.1):
-    - RCT-Folly
-    - RCTRequired
-    - RCTTypeSafety
+  - react-native-safe-area-context (4.10.8):
     - React-Core
-    - ReactCommon/turbomodule/core
   - React-nativeconfig (0.74.5)
   - React-NativeModulesApple (0.74.5):
     - glog
@@ -1125,9 +1121,28 @@ PODS:
     - React-logger (= 0.74.5)
     - React-perflogger (= 0.74.5)
     - React-utils (= 0.74.5)
-  - RNScreens (3.20.0):
+  - RNScreens (3.34.0):
+    - DoubleConversion
+    - glog
+    - RCT-Folly (= 2024.01.01.00)
+    - RCTRequired
+    - RCTTypeSafety
+    - React-Codegen
     - React-Core
+    - React-debug
+    - React-Fabric
+    - React-featureflags
+    - React-graphics
+    - React-ImageManager
+    - React-jsi
+    - React-NativeModulesApple
+    - React-RCTFabric
     - React-RCTImage
+    - React-rendererdebug
+    - React-utils
+    - ReactCommon/turbomodule/bridging
+    - ReactCommon/turbomodule/core
+    - Yoga
   - SnapKit (5.6.0)
   - SocketRocket (0.7.0)
   - Yoga (0.0.0)
@@ -1336,7 +1351,7 @@ SPEC CHECKSUMS:
   React-jsitracing: c83efb63c8e9e1dff72a3c56e88ae1c530a87795
   React-logger: 257858bd55f3a4e1bc0cf07ddc8fb9faba6f8c7c
   React-Mapbuffer: dce508662b995ffefd29e278a16b78217039d43d
-  react-native-safe-area-context: f5549f36508b1b7497434baa0cd97d7e470920d4
+  react-native-safe-area-context: b7daa1a8df36095a032dff095a1ea8963cb48371
   React-nativeconfig: f326487bc61eba3f0e328da6efb2711533dcac46
   React-NativeModulesApple: 8a9954dd9999cce16b12f8759cb5b7547f7db3cb
   React-perflogger: ed4e0c65781521e0424f2e5e40b40cc7879d737e
@@ -1359,7 +1374,7 @@ SPEC CHECKSUMS:
   React-runtimescheduler: dbd12ee396c7ec6dbedc966bc86626b9f158c925
   React-utils: 486900f3bd8f4791635da4070590d16feb38f83f
   ReactCommon: 7bf372968477462e2454456c1b62537ed3635538
-  RNScreens: 218801c16a2782546d30bd2026bb625c0302d70f
+  RNScreens: 26f35a7963227fbe7f7fe29ebadf61fdf75f5490
   SnapKit: e01d52ebb8ddbc333eefe2132acf85c8227d9c25
   SocketRocket: abac6f5de4d4d62d24e11868d7a2f427e0ef940d
   Yoga: 33622183a85805e12703cd618b2c16bfd18bfffb
